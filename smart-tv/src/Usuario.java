@@ -1,6 +1,6 @@
 public class Usuario {
     public static void main(String[] args) {
-        
+
         SmartTv smartTv = new SmartTv();
 
         smartTv.diminuirVolume();
@@ -11,5 +11,7 @@ public class Usuario {
         smartTv.mudarCanal(10);
         smartTv.aumentarCanal();
         smartTv.aumentarVolume();
+        
+        
     }
 }
